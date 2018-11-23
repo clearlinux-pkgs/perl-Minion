@@ -4,7 +4,7 @@
 #
 Name     : perl-Minion
 Version  : 9.07
-Release  : 6
+Release  : 7
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-9.07.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-9.07.tar.gz
 Summary  : 'Job queue'
