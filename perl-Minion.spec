@@ -4,7 +4,7 @@
 #
 Name     : perl-Minion
 Version  : 10.05
-Release  : 28
+Release  : 29
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.05.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.05.tar.gz
 Summary  : 'Job queue'
@@ -107,50 +107,50 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Minion.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Backend.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Backend/Pg.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Backend/resources/migrations/pg.sql
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Command/minion.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Command/minion/job.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Command/minion/worker.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Iterator.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Job.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Minion/Worker.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/Admin.pm
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/app.css
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/app.js
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/bootstrap/bootstrap.css
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/bootstrap/bootstrap.js
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/d3/d3.js
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/epoch/epoch.css
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/epoch/epoch.js
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/fontawesome/fontawesome.css
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/logo-black-2x.png
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/logo-black.png
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/moment/moment.js
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/popper/popper.js
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.eot
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.svg
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.ttf
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.woff
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.woff2
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.eot
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.svg
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.ttf
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.woff
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.woff2
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.eot
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.svg
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.ttf
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.woff
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.woff2
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/layouts/minion.html.ep
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/minion/_limit.html.ep
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/minion/_notifications.html.ep
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/minion/_pagination.html.ep
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/minion/dashboard.html.ep
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/minion/jobs.html.ep
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/minion/locks.html.ep
-/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/Minion/resources/templates/minion/workers.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Minion.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Backend.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Backend/Pg.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Backend/resources/migrations/pg.sql
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Command/minion.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Command/minion/job.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Command/minion/worker.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Iterator.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Job.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Minion/Worker.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/Admin.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/app.css
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/app.js
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/bootstrap/bootstrap.css
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/bootstrap/bootstrap.js
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/d3/d3.js
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/epoch/epoch.css
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/epoch/epoch.js
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/fontawesome/fontawesome.css
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/logo-black-2x.png
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/logo-black.png
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/moment/moment.js
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/popper/popper.js
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.eot
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.svg
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.ttf
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.woff
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-brands-400.woff2
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.eot
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.svg
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.ttf
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.woff
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-regular-400.woff2
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.eot
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.svg
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.ttf
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.woff
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/public/minion/webfonts/fa-solid-900.woff2
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/layouts/minion.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/minion/_limit.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/minion/_notifications.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/minion/_pagination.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/minion/dashboard.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/minion/jobs.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/minion/locks.html.ep
+/usr/lib/perl5/vendor_perl/5.30.3/Mojolicious/Plugin/Minion/resources/templates/minion/workers.html.ep
