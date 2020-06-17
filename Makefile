@@ -1,5 +1,5 @@
 PKG_NAME := perl-Minion
-URL = https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.07.tar.gz
+URL = https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.08.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
