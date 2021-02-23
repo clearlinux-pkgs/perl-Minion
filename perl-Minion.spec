@@ -4,7 +4,7 @@
 #
 Name     : perl-Minion
 Version  : 10.16
-Release  : 39
+Release  : 40
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.16.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.16.tar.gz
 Summary  : 'Job queue'
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : Artistic-2.0
 Requires: perl-Minion-license = %{version}-%{release}
 Requires: perl-Minion-perl = %{version}-%{release}
+Requires: perl(SQL::Abstract::Pg)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Mojo::Base)
 BuildRequires : perl(Mojolicious)
