@@ -4,7 +4,7 @@
 #
 Name     : perl-Minion
 Version  : 10.21
-Release  : 50
+Release  : 51
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.21.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.21.tar.gz
 Summary  : 'Job queue'
