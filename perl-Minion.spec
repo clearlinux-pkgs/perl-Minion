@@ -6,10 +6,10 @@
 # autospec commit: e661f3a
 #
 Name     : perl-Minion
-Version  : 10.27
-Release  : 62
-URL      : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.27.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.27.tar.gz
+Version  : 10.28
+Release  : 63
+URL      : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.28.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.28.tar.gz
 Summary  : 'Job queue'
 Group    : Development/Tools
 License  : Artistic-2.0
@@ -55,10 +55,10 @@ perl components for the perl-Minion package.
 
 
 %prep
-%setup -q -n Minion-10.27
-cd %{_builddir}/Minion-10.27
+%setup -q -n Minion-10.28
+cd %{_builddir}/Minion-10.28
 pushd ..
-cp -a Minion-10.27 buildavx2
+cp -a Minion-10.28 buildavx2
 popd
 
 %build
