@@ -1,4 +1,5 @@
 10.28
+perl(Getopt::Long)
 perl(Mojo::Base)
 perl(Mojolicious)
 perl(YAML::XS)
