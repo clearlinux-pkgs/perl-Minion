@@ -7,7 +7,7 @@
 #
 Name     : perl-Minion
 Version  : 10.30
-Release  : 67
+Release  : 68
 URL      : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.30.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SR/SRI/Minion-10.30.tar.gz
 Summary  : 'Job queue'
